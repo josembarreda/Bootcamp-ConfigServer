@@ -1,0 +1,9 @@
+server:
+  port: 8085
+some:
+  value: servicio 5 detectado
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

@@ -1,0 +1,9 @@
+server:
+  port: 8081
+some:
+  value: servicio 1 detectado
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

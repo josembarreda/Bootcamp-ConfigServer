@@ -1,0 +1,9 @@
+server:
+  port: 8084
+some:
+  value: servicio 4 detectado
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
